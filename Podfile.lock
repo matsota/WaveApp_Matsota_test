@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (5.0.5)
+  - AlamofireNetworkActivityLogger (3.0.0):
+    - Alamofire (~> 5.0.0-rc.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - AlamofireNetworkActivityLogger
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  AlamofireNetworkActivityLogger: 94e8a7d454a4a9800cef1d0c1d3699754493684b
+
+PODFILE CHECKSUM: 142f6bfd6d5ad8c5a94fafb149125e665c8b992c
+
+COCOAPODS: 1.10.0.rc.1
