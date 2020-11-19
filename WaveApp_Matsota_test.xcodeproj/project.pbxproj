@@ -13,8 +13,8 @@
 		8F4878842566E20A004D2118 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4878832566E20A004D2118 /* Rocket.swift */; };
 		8F48788B2566E5C6004D2118 /* RocketLaunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F48788A2566E5C6004D2118 /* RocketLaunchTableViewCell.swift */; };
 		8F487892256700D6004D2118 /* RocketDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F487891256700D6004D2118 /* RocketDescriptionViewController.swift */; };
-		8F4878A1256706DB004D2118 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4878A0256706DB004D2118 /* Loadable.swift */; };
 		8F4878CA25671237004D2118 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4878C925671237004D2118 /* String+.swift */; };
+		8F4878D22567154E004D2118 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4878D12567154E004D2118 /* Loadable.swift */; };
 		8F914E282566BFEF00DE9C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F914E272566BFEF00DE9C5F /* AppDelegate.swift */; };
 		8F914E2A2566BFEF00DE9C5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F914E292566BFEF00DE9C5F /* SceneDelegate.swift */; };
 		8F914E2C2566BFEF00DE9C5F /* RocketLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F914E2B2566BFEF00DE9C5F /* RocketLaunchViewController.swift */; };
@@ -35,8 +35,8 @@
 		8F4878832566E20A004D2118 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
 		8F48788A2566E5C6004D2118 /* RocketLaunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchTableViewCell.swift; sourceTree = "<group>"; };
 		8F487891256700D6004D2118 /* RocketDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDescriptionViewController.swift; sourceTree = "<group>"; };
-		8F4878A0256706DB004D2118 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Loadable.swift; path = ../../../../../Documents/Loadable.swift; sourceTree = "<group>"; };
 		8F4878C925671237004D2118 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		8F4878D12567154E004D2118 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		8F914E242566BFEF00DE9C5F /* WaveApp_Matsota_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveApp_Matsota_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F914E272566BFEF00DE9C5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F914E292566BFEF00DE9C5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		8F48789F256706D1004D2118 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				8F4878A0256706DB004D2118 /* Loadable.swift */,
+				8F4878D12567154E004D2118 /* Loadable.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -310,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F48787E2566D8A1004D2118 /* NetworkManager.swift in Sources */,
-				8F4878A1256706DB004D2118 /* Loadable.swift in Sources */,
 				8F914E4B2566C63500DE9C5F /* RocketLaunch.swift in Sources */,
 				8F4878842566E20A004D2118 /* Rocket.swift in Sources */,
 				8F914E322566BFEF00DE9C5F /* WaveApp_Matsota_test.xcdatamodeld in Sources */,
@@ -322,6 +321,7 @@
 				8F914E2C2566BFEF00DE9C5F /* RocketLaunchViewController.swift in Sources */,
 				8F914E282566BFEF00DE9C5F /* AppDelegate.swift in Sources */,
 				8F914E2A2566BFEF00DE9C5F /* SceneDelegate.swift in Sources */,
+				8F4878D22567154E004D2118 /* Loadable.swift in Sources */,
 				8F914E572566C7E400DE9C5F /* NetworkService.swift in Sources */,
 				8F48788B2566E5C6004D2118 /* RocketLaunchTableViewCell.swift in Sources */,
 			);
